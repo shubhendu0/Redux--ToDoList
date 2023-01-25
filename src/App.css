@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+}
+
+
+/* div tags */
+.main-container{
+    display: block;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: rgb(61, 165, 235);
+}
+.input-box{ 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.clear-box{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* input tags */
+.addTodo{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(97, 213, 248);
+    color: aliceblue;
+    border: 1px solid rgb(61, 165, 235);
+    border-radius: 17px;
+}
+.editTodo{
+    max-width: 280px;
+    padding: 5px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(97, 213, 248);
+    border: 1px solid rgb(61, 165, 235);
+    border-radius: 17px;
+}
+
+
+/* button tags */
+.outer-btn{
+    margin: 10px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(97, 213, 248);
+    border: 1px solid rgb(61, 165, 235);
+    border-radius: 27px;
+}
+.inner-btn{
+    margin: 5px;
+    padding: 7px;
+    color: aliceblue;
+    background-color: rgb(97, 213, 248);
+    border: 1px solid rgb(61, 165, 235);
+    border-radius: 27px;
+}
+
+
+/* table tag */
+table{
+    margin: 0;
+    width: 100%;
+}
+th{
+    min-width: 5px;
+    max-width: 280px;
+    padding: 8px;
+    font-size: 28px;
+    color: rgb(61, 165, 235);
+    text-align: center; 
+    border: 3px solid rgb(61, 165, 235);
+    border-radius: 15px;  
+}
+td{
+    min-width: 5px;
+    max-width: 280px;
+    padding: 8px;
+    font-size: 18px;
+    color: rgb(61, 165, 235);
+    text-align: center; 
+    border: 3px solid rgb(61, 165, 235);
+    border-radius: 15px; 
+    overflow: hidden;
+} 
